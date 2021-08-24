@@ -1,0 +1,36 @@
+.header {
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__text {
+    width: 465px;
+  }
+  // .header-info__title
+  &__title {
+    z-index: 9;
+    position: relative;
+    margin-right: -160px;
+
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 1.46; // 79px
+    letter-spacing: 0.8px;
+    margin-bottom: 25px;
+  }
+  // .header-info__text
+  &__textp {
+    font-size: 16px;
+    line-height: 1.68; // 27px
+    letter-spacing: 1.15px;
+    margin-bottom: 40px;
+  }
+
+  // .header__img
+  &__img {
+    & img {
+      border-radius: 40px 40px 40px 0px;
+    }
+  }
+}
