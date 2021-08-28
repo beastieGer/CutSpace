@@ -34,25 +34,4 @@
       color: #bbbbbb;
     }
   }
-  &__button {
-    background-color: $accent-color;
-    color: #fff;
-  }
-}
-.btn {
-  display: inline-block;
-  font-weight: 700;
-  // font-size: 16px;
-  // line-height: 24px;
-  height: 58px;
-  line-height: 58px;
-
-  // padding: 17px 36px;
-  padding-left: 37px;
-  padding-right: 37px;
-  border-radius: 29px;
-  transition: background-color 0.2s ease-in;
-  &:hover {
-    background-color: darken($accent-color, 5%);
-  }
 }

@@ -1,0 +1,7 @@
+.clients {
+  margin-bottom: 90px;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+}
